@@ -4,7 +4,9 @@ export default class NoteList extends Component {
     render() {
         return (
             <div>
-                NoteList
+                <h1 className='text-red-500'>
+                    NoteList
+                </h1>
             </div>
         )
     }
