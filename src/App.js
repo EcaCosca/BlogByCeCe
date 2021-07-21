@@ -6,6 +6,7 @@ import NoteList from './components/NoteList'
 import CreateUser from './components/CreateUser'
 import CreateNote from './components/CreateNote'
 import Hero from './components/Hero';
+import { Content } from './components/Content';
 
 
 
@@ -14,6 +15,7 @@ function App() {
     <Router>
       <Navigation />
       <Hero />
+      <Content />
       <NoteList />
       <CreateUser />
       <CreateNote />
