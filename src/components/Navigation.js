@@ -25,9 +25,12 @@ const Navegation = () => {
         //     </div>
         // </nav>
 
-        <nav>
+        <nav 
+					className='flex justify-between items-center h-16 bg-white text-red relative shadow-sm font-mono'
+					role='navigation'
+				>
             <Link to='/' className='pl-8'>
-                EGG
+                Camila Colonel
             </Link>
             <div className="px-4 cursor-pointer md:hidden">
 							<svg 

@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom'
-import 'bootstrap/dist/css/bootstrap.min.css'
 
 import Navigation from './components/Navigation'
 import NoteList from './components/NoteList'
 import CreateUser from './components/CreateUser'
 import CreateNote from './components/CreateNote'
+import Hero from './components/Hero';
 
 
 
@@ -13,6 +13,7 @@ function App() {
   return (
     <Router>
       <Navigation />
+      <Hero />
       <NoteList />
       <CreateUser />
       <CreateNote />
