@@ -37,23 +37,6 @@ export const Content = () => {
 
 
                 
-
-                <div className="inside-container">
-                    <p className="mb-10">El cliente de Domingo la elige por lo diferente, el algodón de pima peruano,  la textura de un bordado, el detalle en cada avío y la estampa que tanto caracteriza  a esta marca; Pantalones cuadriculados con forrería floreada,  ponchos con guardas mapuches y pilotos acharolados con capucha. Domingo centra su diseño en morfologías básicas, tales como un jogging, pero con la vuelta Dominguera: Un jogging de terciopelo con un cordón trenzado de colores haciendo analogía a los colores del cerro de siete colores, Jujuy, Argentina.
-                    Pero eso no es todo. En Domingo podemos encontrar diferentes colecciones, tales como la Colección Guayaquil, Mardel, Folklore, Atalaya y nuestra favorita, Río. Todas hacen referencia a un lugar o movimiento cultural latinoamericano.
-                    Para darles un ejemplo, la Colección Río, Verano 2016, esta compuesta por prendas con grabados y determinaciones que hacen referencia a la palabra, RÍO, como Río de Janerio, con sus playas y sus avenidas, Rio Paraná y su vista desde Brasil o Argentina, o simplemente juega con el verbo Reír. Es una colección, como todas, rica por la diversidad y su key to success: llena de imágenes que transportan a un recorrido a través de las prendas.
-                    Con 3.000 productos, mínimo, por colección, Domingo se caracteriza por la fidelidad en el proceso y el desarrollo del producto. Estamos hablando de una marca que respeta cada sector de elaboración fijando su distinción en la confección: El textil se busca y se crea una prenda especifica para poder transmitir la base principal de la marca,  multiplicidad y comodidad. 
-                    “El buen Diseñador es el que trabaja para el otro, nuestro objetivo es mostrar la impronta de uno para llegar a todos”  Agustina Alvez
-                    </p>
-                </div>
-
-                <div className="inside-container">
-                    <p className="mb-10">Loco, no? Pero esta es la energía que maneja la marca. Una energía innovadora que te invita a romper con las estructuras y tendencias establecidas y te deja que seas vos el que marca su propia identidad con prendas pensadas. “La idea es que se coman el mismo viaje que el diseñador”
-                    Hoy Domingo es Domingo es elegido por grandes bandas de la música Argentina y realiza colecciones capsulas para marcas fuera del rubro como Campari, Garibaildi y Negroni: la variedad de opciones no solo se ven en las prendas sino también en la filosofía y el estilo de vida de la marca.
-                    Polifacético, hiperactivo y dinámico, Domingo prepara su próxima colección pero esta vez para mujeres. 
-                    Sin salir de la ideología, se viene SABADO. Una línea especial para el equipo femenino que buscan ropa adaptable a cualquier situación y ajena a las tendencias masivas.
-                    </p>
-                </div>
             </div>
             <div className="min-h-screen py-6 flex flex-col justify-center sm:py-12">
                 <div   div className="relative py-3 sm:max-w-xl sm:mx-auto">
@@ -66,6 +49,16 @@ export const Content = () => {
                     </div>
                 </div>
 
+
+                <div className="inside-container">
+                    <p className="mb-10">El cliente de Domingo la elige por lo diferente, el algodón de pima peruano,  la textura de un bordado, el detalle en cada avío y la estampa que tanto caracteriza  a esta marca; Pantalones cuadriculados con forrería floreada,  ponchos con guardas mapuches y pilotos acharolados con capucha. Domingo centra su diseño en morfologías básicas, tales como un jogging, pero con la vuelta Dominguera: Un jogging de terciopelo con un cordón trenzado de colores haciendo analogía a los colores del cerro de siete colores, Jujuy, Argentina.
+                    Pero eso no es todo. En Domingo podemos encontrar diferentes colecciones, tales como la Colección Guayaquil, Mardel, Folklore, Atalaya y nuestra favorita, Río. Todas hacen referencia a un lugar o movimiento cultural latinoamericano.
+                    Para darles un ejemplo, la Colección Río, Verano 2016, esta compuesta por prendas con grabados y determinaciones que hacen referencia a la palabra, RÍO, como Río de Janerio, con sus playas y sus avenidas, Rio Paraná y su vista desde Brasil o Argentina, o simplemente juega con el verbo Reír. Es una colección, como todas, rica por la diversidad y su key to success: llena de imágenes que transportan a un recorrido a través de las prendas.
+                    Con 3.000 productos, mínimo, por colección, Domingo se caracteriza por la fidelidad en el proceso y el desarrollo del producto. Estamos hablando de una marca que respeta cada sector de elaboración fijando su distinción en la confección: El textil se busca y se crea una prenda especifica para poder transmitir la base principal de la marca,  multiplicidad y comodidad. 
+                    “El buen Diseñador es el que trabaja para el otro, nuestro objetivo es mostrar la impronta de uno para llegar a todos”  Agustina Alvez
+                    </p>
+                </div>
+
             <div className="min-h-screen py-6 flex flex-col justify-center sm:py-12">
                 <div   div className="relative py-3 sm:max-w-xl sm:mx-auto">
                     <div className="absolute inset-0 bg-gradient-to-r from-red-300 via-pink-300 to-yellow-300 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"></div>
@@ -75,6 +68,13 @@ export const Content = () => {
                             </div>
                         </div>
                     </div>
+                </div>
+                <div className="inside-container">
+                    <p className="mb-10">Loco, no? Pero esta es la energía que maneja la marca. Una energía innovadora que te invita a romper con las estructuras y tendencias establecidas y te deja que seas vos el que marca su propia identidad con prendas pensadas. “La idea es que se coman el mismo viaje que el diseñador”
+                    Hoy Domingo es Domingo es elegido por grandes bandas de la música Argentina y realiza colecciones capsulas para marcas fuera del rubro como Campari, Garibaildi y Negroni: la variedad de opciones no solo se ven en las prendas sino también en la filosofía y el estilo de vida de la marca.
+                    Polifacético, hiperactivo y dinámico, Domingo prepara su próxima colección pero esta vez para mujeres. 
+                    Sin salir de la ideología, se viene SABADO. Una línea especial para el equipo femenino que buscan ropa adaptable a cualquier situación y ajena a las tendencias masivas.
+                    </p>
                 </div>
             
          
