@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.content-card {
+    @apply flex flex-col justify-center items-center bg-white h-screen font-mono py-40;
+}
+
+.content-img {
+    @apply h-full rounded mb-20 shadow;
+}
