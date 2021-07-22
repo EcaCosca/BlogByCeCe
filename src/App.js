@@ -1,31 +1,30 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom'
-
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Navigation from './components/Navigation'
 import NoteList from './components/NoteList'
 import CreateUser from './components/CreateUser'
 import CreateNote from './components/CreateNote'
-import Hero from './components/Hero';
-import { Content } from './components/Content';
+import Home from './pages';
+import Footer from './components/Footer';
+import About from './pages/about';
 
 
 
 function App() {
   return (
-    <Router>
+    <>
       <Navigation />
-      <Hero />
-      <Content />
-      <NoteList />
-      <CreateUser />
-      <CreateNote />
+      <Switch>
+        <Route path="/" exact component={Home} />
+        <Route path="/about" component={About} />
+        {/* <Route path="/edit/:id" component={CreateNote} />
+        <Route path="/create" component={CreateNote} />
+        <Route path="/user" component={CreateUser} /> */}
 
-      <Route path="/" component={NoteList} />
-      <Route path="/edit/:id" component={CreateNote} />
-      <Route path="/create" component={CreateNote} />
-      <Route path="/user" component={CreateUser} />
+      </Switch>
+      <Footer />
 
-    </Router>
+    </>
   );
 }
 
