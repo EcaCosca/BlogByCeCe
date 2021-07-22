@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
-const Navegation = () => {
+const Navegation = ({toggle}) => {
     return (
 
         // BOOTSTRAP NAV MODEL 
@@ -32,7 +32,7 @@ const Navegation = () => {
             <Link to='/' className='pl-8'>
                 Camila Colonel
             </Link>
-            <div className="px-4 cursor-pointer md:hidden">
+            <div className="px-4 cursor-pointer md:hidden" onClick={toggle}>
 							<svg 
 								className="w-6 h-6"
 								fill="none" 
