@@ -7,10 +7,7 @@ import CreateNote from '../components/CreateNote'
 const Home = () => {
     return (
         <>
-            <Hero />
-            <NoteList />
-            <CreateUser />
-            <CreateNote />   
+            <Hero /> 
         </>
     )
 }
