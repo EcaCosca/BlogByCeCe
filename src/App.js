@@ -7,6 +7,8 @@ import CreateNote from './components/CreateNote'
 import Home from './pages';
 import Footer from './components/Footer';
 import About from './pages/about';
+import menu from './pages/menu';
+import { Content } from './components/Content';
 
 
 
@@ -17,6 +19,8 @@ function App() {
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/about" component={About} />
+        <Route path="/menu" component={menu} />
+        <Route path="/content" component={Content} />
         {/* <Route path="/edit/:id" component={CreateNote} />
         <Route path="/create" component={CreateNote} />
         <Route path="/user" component={CreateUser} /> */}

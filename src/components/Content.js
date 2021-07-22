@@ -4,6 +4,10 @@ import DM1 from '../images/DM1.jpg'
 export const Content = () => {
     return (
         <>
+        <div className="h-screen flex justify-center items-center bg-red-300">
+            <h1 className="text-9xl uppercase font-black">Content</h1>
+        </div>
+        <br />
          <div className="content-card">
             <img src={DM1} alt="" className="content-img" />
             <div className="flex flex-col justify-center items-center mb-5">

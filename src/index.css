@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .content-card {
-    @apply flex flex-col justify-center items-center bg-white h-screen font-mono py-40;
+    @apply p-3 flex flex-col justify-center items-center bg-white h-screen font-mono py-40;
 }
 
 .content-img {

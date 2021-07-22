@@ -2,9 +2,12 @@ import React from 'react'
 
 const menu = () => {
     return (
-        <div>
-            
+        
+        
+        <div className="h-screen flex justify-center items-center bg-green-300">
+            <h1 className="text-9xl uppercase font-black">Menu</h1>
         </div>
+        
     )
 }
 
