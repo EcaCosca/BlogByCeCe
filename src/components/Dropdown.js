@@ -8,6 +8,7 @@ const Dropdown = ({ isOpen, toggle }) => {
             <Link className="p-4" to='/menu'>Menu</Link>
             <Link className="p-4" to='/about'>About</Link>
             <Link className="p-4" to='/content'>Content</Link>
+            <Link className="p-4" to='/contact'>Contact</Link>
         </div>
     )
 }

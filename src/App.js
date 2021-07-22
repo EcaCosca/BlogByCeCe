@@ -10,6 +10,7 @@ import About from './pages/about';
 import menu from './pages/menu';
 import { Content } from './components/Content';
 import Dropdown from './components/Dropdown';
+import contact from './pages/contact';
 
 
 
@@ -42,6 +43,7 @@ function App() {
         <Route path="/about" component={About} />
         <Route path="/menu" component={menu} />
         <Route path="/content" component={Content} />
+        <Route path="/contact" component={contact} />
         {/* <Route path="/edit/:id" component={CreateNote} />
         <Route path="/create" component={CreateNote} />
         <Route path="/user" component={CreateUser} /> */}
