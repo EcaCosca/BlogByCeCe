@@ -9,30 +9,32 @@ export const Content = () => {
         <div className="h-screen flex justify-center items-center bg-red-300">
             <h1 className="text-9xl uppercase font-black">Content</h1>
         </div>
+        <div className="flex flex-col justify-center items-center">
+            <h2 className="text-5xl mb-2">Como un básico se transforma en una prenda exótica</h2>
+            <h2 className="text-3xl mb-1">Domingo Domingo</h2>
+            <h4 className="text-2xl mb-1">De Argentina al Universo, el salto que define a Domingo es Domingo</h4>
+        </div>
         <br />
-         <div className="content-card">
-            <div className="min-h-screen py-6 flex flex-col justify-center sm:py-12">
-                <div className="relative py-3 sm:max-w-xl sm:mx-auto">
-                    <div className="absolute inset-0 bg-gradient-to-r from-yellow-300 via-red-300 to-pink-300 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"></div>
-                        <div className="relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20">
-                            <div className="max-w-md mx-auto">
-                                <img src={DM1} className="rounded-lg" alt="image1" />
-                            </div>
+            <div className="flex flex-col justify-center items-center mb-5">
+                <div className="content-card">
+                    <div className="min-h-screen py-6 flex flex-col justify-center sm:py-12">
+                        <div className="relative py-3 sm:max-w-xl sm:mx-auto">
+                            <div className="absolute inset-0 bg-gradient-to-r from-yellow-300 via-red-300 to-pink-300 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"></div>
+                                <div className="relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20">
+                                    <div className="max-w-md mx-auto">
+                                        <img src={DM1} className="rounded-lg" alt="image1" />
+                                    </div>
+                                </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className="flex flex-col justify-center items-center mb-5">
-                <h2 className="text-5xl mb-2">Como un básico se transforma en una prenda exótica</h2>
-                <h2 className="text-3xl mb-1">Domingo Domingo</h2>
-                <h4 className="text-2xl mb-1">De Argentina al Universo, el salto que define a Domingo es Domingo</h4>
-                
                 <div className="inside-container">
                     <p className="mb-2">Teniendo América Latina y toda su exquisita cultura como referencia no dejamos  de pensar en Visión- Diseño – Función para describir a esta marca para hombres, que con cada temporada atemporal, nos hace respirar creatividad exponencial y liderazgo como producto nacional.
                     Agustina Alvez, diseñadora y emprendedora, es quien hace crecer esta marca hace ocho años. Cuando la conocimos nos transmitió una  vibra fresca y ese gran frenesí  que caracteriza a su marca. De tal palo, tal astilla. Durante la entrevista, Agus, hizo mucho hincapié en que no cualquiera usa Domingo.  Detrás de cada colección hay una búsqueda, un estudio.. una propuesta que va más allá de cualquier tendencia.
                     Todas las colecciones son extremadamente diferentes pero siempre sosteniendo la filosofía de Domingo: prendas de uso diario pero con un éxtasis de estampas y telas un tanto extravagantes. Es por esto que cada colección  tiene su propio packaging, su propia etiqueta y su propia estrategia de marketing.
                     </p>
                 </div>
+                
                 
 
 
