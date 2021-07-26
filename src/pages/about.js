@@ -1,4 +1,6 @@
 import React from 'react'
+import hero from '../images/hero.jpg'
+
 
 const About = () => {
     return (
@@ -9,16 +11,16 @@ const About = () => {
              <div className="flex flex-col-reverse justify-around p-4">
                 <div className="min-h-screen py-6 flex flex-col justify-center sm:py-12 flex-none px-8">
                     <div className="relative py-3 sm:max-w-xl sm:mx-auto">
-                        <div className="absolute inset-0 bg-gradient-to-r from-yellow-300 via-red-300 to-pink-300 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"></div>
+                        <div className="absolute inset-0 bg-gradient-to-r from-yellow-300 via-yellow-500 to-red-400 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"></div>
                         <div className="relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20">
                             <div className="max-w-md mx-auto">
-                                <img src='' className="rounded-lg" alt="image1" />
+                                <img src={hero} className="rounded-lg" alt="image1" />
                             </div>
                         </div>  
                     </div>
                 </div>
                 <div className="flex flex-col justify-center items-center mb-5 p-16 text-3xl font-mono">
-                    <p className="mb-2">
+                    <p className="mb-2 border-b-2 p-4 mb-20">
                     Argentine world traveler, writer, journalist and fashion producer
                     <br />
                     My professional career in the fashion world began in 2013 and since then I have been incorporating different visual and written techniques.
@@ -30,7 +32,7 @@ const About = () => {
                     Both careers have given me the opportunity to develop my most creative and revolutionary side when it comes to talking about fashion. Thanks to various interviews and meetings with professionals, I arrived at the conclusion that there is a personal process given at an exact moment in the career of each artist that leads us to fashion, seen from different perspectives. We only need to have the ability to visualize it.
                     <br />
                     </p>
-                    <h2 className="text-3xl mb-1 p-4">CeCe</h2>
+                    <h2 className="text-5xl mb-1 p-4">CeCe</h2>
                 </div>
             </div>
 
