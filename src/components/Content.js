@@ -6,9 +6,9 @@ import DM3 from '../images/DM3.jpg'
 export const Content = () => {
     return (
         <div className='flex-col items-center'>
-        <div className="h-screen flex justify-center items-center bg-red-300">
-            <h1 className="text-9xl uppercase font-black">Content</h1>
-        </div>
+            <div className="h-screen flex justify-center items-center bg-red-300">
+                <h1 className="text-9xl uppercase font-black">Content</h1>
+            </div>
         <div className="flex-col items-center font-mono">
 
             <div className="flex flex-col justify-center items-center">
@@ -16,7 +16,6 @@ export const Content = () => {
                 <h2 className="text-3xl mb-1 p-4">Domingo Domingo</h2>
                 <h4 className="text-2xl mb-1 p-4">De Argentina al Universo, el salto que define a Domingo es Domingo</h4>
             </div>
-            <br />
             <div className="flex flex-col justify-center items-center mb-5">
                 {/* <div className="content-card">
                 </div> */}
