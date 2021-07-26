@@ -19,23 +19,26 @@ export const Content = () => {
                 {/* <div className="content-card">
                 </div> */}
                 <div className="flex flex-row-reverse justify-around p-4">
-                <div className="min-h-screen py-6 flex flex-col justify-center sm:py-12 flex-none px-8">
-                    <div className="relative py-3 sm:max-w-xl sm:mx-auto">
-                        <div className="absolute inset-0 bg-gradient-to-r from-yellow-300 via-red-300 to-pink-300 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"></div>
-                        <div className="relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20">
-                            <div className="max-w-md mx-auto">
-                                <img src={DM1} className="rounded-lg" alt="image1" />
-                            </div>
-                        </div>  
+                    <div className="min-h-screen py-6 flex flex-col justify-center sm:py-12 flex-none px-8">
+                        <div className="relative py-3 sm:max-w-xl sm:mx-auto">
+                            <div className="absolute inset-0 bg-gradient-to-r from-yellow-300 via-red-300 to-pink-300 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"></div>
+                            <div className="relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20">
+                                <div className="max-w-md mx-auto">
+                                    <img src={DM1} className="rounded-lg" alt="image1" />
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                    <div className="flex flex-col justify-center items-center mb-5 p-16 text-2xl">
+                        <p className="mb-2">
+                        Teniendo América Latina y toda su exquisita cultura como referencia no dejamos  de pensar en Visión- Diseño – Función para describir a esta marca para hombres, que con cada temporada atemporal, nos hace respirar creatividad exponencial y liderazgo como producto nacional.
+                        <br />
+                        <b>Agustina Alvez</b>, diseñadora y emprendedora, es quien hace crecer esta marca hace ocho años. Cuando la conocimos nos transmitió una  vibra fresca y ese gran frenesí  que caracteriza a su marca. De tal palo, tal astilla. Durante la entrevista, Agus, hizo mucho hincapié en que no cualquiera usa Domingo.  Detrás de cada colección hay una búsqueda, un estudio.. una propuesta que va más allá de cualquier tendencia.
+                        <br />
+                        Todas las colecciones son extremadamente diferentes pero siempre sosteniendo la filosofía de <b>Domingo</b>: prendas de uso diario pero con un éxtasis de estampas y telas un tanto extravagantes. Es por esto que cada colección  tiene su propio packaging, su propia etiqueta y su propia estrategia de marketing.
+                        </p>
                     </div>
                 </div>
-                <div className="flex flex-col justify-center items-center mb-5 p-16 text-2xl">
-                    <p className="mb-2">Teniendo América Latina y toda su exquisita cultura como referencia no dejamos  de pensar en Visión- Diseño – Función para describir a esta marca para hombres, que con cada temporada atemporal, nos hace respirar creatividad exponencial y liderazgo como producto nacional.
-                    <b>Agustina Alvez</b>, diseñadora y emprendedora, es quien hace crecer esta marca hace ocho años. Cuando la conocimos nos transmitió una  vibra fresca y ese gran frenesí  que caracteriza a su marca. De tal palo, tal astilla. Durante la entrevista, Agus, hizo mucho hincapié en que no cualquiera usa Domingo.  Detrás de cada colección hay una búsqueda, un estudio.. una propuesta que va más allá de cualquier tendencia.
-                    Todas las colecciones son extremadamente diferentes pero siempre sosteniendo la filosofía de <b>Domingo</b>: prendas de uso diario pero con un éxtasis de estampas y telas un tanto extravagantes. Es por esto que cada colección  tiene su propio packaging, su propia etiqueta y su propia estrategia de marketing.
-                    </p>
-                </div>
-            </div>
                 <div className="flex flex-row justify-around p-4">
                     <div className="min-h-screen py-6 flex flex-col justify-center sm:py-12 flex-none px-8">
                         <div   div className="relative py-3 sm:max-w-xl sm:mx-auto">
@@ -75,9 +78,13 @@ export const Content = () => {
                         </div>
                     </div>
                     <div className="flex flex-col justify-center items-center mb-5 p-16 text-2xl">
-                        <p className="mb-10">Loco, no? Pero esta es la energía que maneja la marca. Una energía innovadora que te invita a romper con las estructuras y tendencias establecidas y te deja que seas vos el que marca su propia identidad con prendas pensadas. “La idea es que se coman el mismo viaje que el diseñador”
+                        <p className="mb-10">
+                        Loco, no? Pero esta es la energía que maneja la marca. Una energía innovadora que te invita a romper con las estructuras y tendencias establecidas y te deja que seas vos el que marca su propia identidad con prendas pensadas. <em>“La idea es que se coman el mismo viaje que el diseñador”</em>
+                        <br />
                         Hoy Domingo es Domingo es elegido por grandes bandas de la música Argentina y realiza colecciones capsulas para marcas fuera del rubro como Campari, Garibaildi y Negroni: la variedad de opciones no solo se ven en las prendas sino también en la filosofía y el estilo de vida de la marca.
+                        <br />
                         Polifacético, hiperactivo y dinámico, Domingo prepara su próxima colección pero esta vez para mujeres. 
+                        <br />
                         Sin salir de la ideología, se viene SABADO. Una línea especial para el equipo femenino que buscan ropa adaptable a cualquier situación y ajena a las tendencias masivas.
                         </p>
                     </div>
