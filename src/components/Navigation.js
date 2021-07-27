@@ -7,7 +7,7 @@ const Navegation = ({toggle}) => {
 					className='flex justify-between items-center h-16 bg-white text-red relative shadow-sm font-mono'
 					role='navigation'
 				>
-            <Link to='/' className='pl-8'>
+            <Link to='/' className='pl-8 hover:text-gray-500 font-bold'>
                 Camila Colonel
             </Link>
             <div className="px-4 cursor-pointer md:hidden" onClick={toggle}>
@@ -27,11 +27,11 @@ const Navegation = ({toggle}) => {
 							</svg>
             </div>
 						<div className="pr-9 md:block hidden">
-							<Link className="p-4" to='/'>Home</Link>
-							<Link className="p-4" to='/menu'>Menu</Link>
-							<Link className="p-4" to='/about'>About</Link>
-							<Link className="p-4" to='/content'>Content</Link>
-							<Link className="p-4" to='/contact'>Contact</Link>
+							<Link className="p-4 hover:text-gray-500 border-b-2 border-white hover:border-gray-500" to='/'>Home</Link>
+							<Link className="p-4 hover:text-gray-500 border-b-2 border-white hover:border-gray-500" to='/menu'>Menu</Link>
+							<Link className="p-4 hover:text-gray-500 border-b-2 border-white hover:border-gray-500" to='/about'>About</Link>
+							<Link className="p-4 hover:text-gray-500 border-b-2 border-white hover:border-gray-500" to='/content'>Content</Link>
+							<Link className="p-4 hover:text-gray-500 border-b-2 border-white hover:border-gray-500" to='/contact'>Contact</Link>
 						</div>
         </nav>
     )
