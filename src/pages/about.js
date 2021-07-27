@@ -32,7 +32,9 @@ const About = () => {
                     Both careers have given me the opportunity to develop my most creative and revolutionary side when it comes to talking about fashion. Thanks to various interviews and meetings with professionals, I arrived at the conclusion that there is a personal process given at an exact moment in the career of each artist that leads us to fashion, seen from different perspectives. We only need to have the ability to visualize it.
                     <br />
                     </p>
-                    <h2 className="text-5xl mb-1 p-4 font-bold">CeCe</h2>
+                    <div className='rounded-full h-40 w-40 flex items-center justify-center border-4 border-gray-300 shadow-lg transform hover:scale-125 hover:shadow-2xl transition ease-in-out duration-1000'>
+                        <h2 className="text-5xl mb-1 p-4 font-bold">CeCe</h2>
+                    </div>
                 </div>
             </div>
 
