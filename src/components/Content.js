@@ -16,21 +16,19 @@ export const Content = () => {
                 <h4 className="text-2xl mb-1 p-4">De Argentina al Universo, el salto que define a Domingo es Domingo</h4>
             </div>
             <div className="flex flex-col justify-center items-center mb-5">
-                {/* <div className="content-card">
-                </div> */}
                 <div className="flex flex-col-reverse lg:flex-row-reverse justify-around p-4">
                     <div className="min-h-screen py-6 flex flex-col justify-center sm:py-12 flex-none px-8">
                         <div className="relative py-3 sm:max-w-xl sm:mx-auto">
                             <div className="absolute inset-0 bg-gradient-to-r from-yellow-300 via-red-300 to-pink-300 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:rotate-6 sm:rounded-3xl"></div>
                             <div className="relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20">
                                 <div className="max-w-md mx-auto">
-                                    <img src={DM1} className="rounded-lg" alt="image1" />
+                                    <img src={DM1} className="rounded-lg" alt="Model1" />
                                 </div>
                             </div>  
                         </div>
                     </div>
-                    <div className="flex flex-col justify-center items-center mb-5 p-16 text-2xl">
-                        <p className="mb-2">
+                    <div className="content-p">
+                        <p>
                         Teniendo América Latina y toda su exquisita cultura como referencia no dejamos  de pensar en Visión- Diseño – Función para describir a esta marca para hombres, que con cada temporada atemporal, nos hace respirar creatividad exponencial y liderazgo como producto nacional.
                         <br />
                         <b>Agustina Alvez</b>, diseñadora y emprendedora, es quien hace crecer esta marca hace ocho años. Cuando la conocimos nos transmitió una  vibra fresca y ese gran frenesí  que caracteriza a su marca. De tal palo, tal astilla. Durante la entrevista, Agus, hizo mucho hincapié en que no cualquiera usa Domingo.  Detrás de cada colección hay una búsqueda, un estudio.. una propuesta que va más allá de cualquier tendencia.
@@ -45,13 +43,13 @@ export const Content = () => {
                             <div className="absolute inset-0 bg-gradient-to-r from-pink-300 via-yellow-300 to-red-300 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"></div>
                             <div className="relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20">
                                 <div className="max-w-md mx-auto">
-                                    <img src={DM2} className="rounded-lg" alt="image1" />
+                                    <img src={DM2} className="rounded-lg" alt="Model2" />
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="flex flex-col justify-center items-center mb-5 p-16 text-2xl">
-                        <p className="mb-10">
+                    <div className="content-p">
+                        <p>
                             El cliente de <b>Domingo</b> la elige por lo diferente, el algodón de pima peruano,  la textura de un bordado, el detalle en cada avío y la estampa que tanto caracteriza  a esta marca; Pantalones cuadriculados con forrería floreada,  ponchos con guardas mapuches y pilotos acharolados con capucha. Domingo centra su diseño en morfologías básicas, tales como un jogging, pero con la vuelta Dominguera: Un jogging de terciopelo con un cordón trenzado de colores haciendo analogía a los colores del cerro de siete colores, Jujuy, Argentina.
                             <br />
                             Pero eso no es todo. En Domingo podemos encontrar diferentes colecciones, tales como la Colección Guayaquil, Mardel, Folklore, Atalaya y nuestra favorita, Río. Todas hacen referencia a un lugar o movimiento cultural latinoamericano.
@@ -72,13 +70,13 @@ export const Content = () => {
                             <div className="absolute inset-0 bg-gradient-to-r from-red-300 via-pink-300 to-yellow-300 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:rotate-6 sm:rounded-3xl"></div>
                             <div className="relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20">
                                 <div className="max-w-md mx-auto">
-                                    <img src={DM3} className="rounded-lg" alt="image1" />
+                                    <img src={DM3} className="rounded-lg" alt="Model3" />
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="flex flex-col justify-center items-center mb-5 p-16 text-2xl">
-                        <p className="mb-10">
+                    <div className="content-p">
+                        <p>
                         Loco, no? Pero esta es la energía que maneja la marca. Una energía innovadora que te invita a romper con las estructuras y tendencias establecidas y te deja que seas vos el que marca su propia identidad con prendas pensadas. <em>“La idea es que se coman el mismo viaje que el diseñador”</em>
                         <br />
                         Hoy Domingo es Domingo es elegido por grandes bandas de la música Argentina y realiza colecciones capsulas para marcas fuera del rubro como Campari, Garibaildi y Negroni: la variedad de opciones no solo se ven en las prendas sino también en la filosofía y el estilo de vida de la marca.
