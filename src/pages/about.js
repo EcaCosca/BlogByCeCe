@@ -6,7 +6,13 @@ const About = () => {
     return (
         <div>
             <div className="h-screen flex justify-center items-center bg-yellow-300">
-                <h1 className="text-9xl uppercase font-black">About Camila Colonel</h1>
+                <h1 className="text-9xl uppercase font-black tracking-widest">
+                    About
+                    <br />
+                    Camila
+                    <br />
+                    Colonel
+                </h1>
             </div>
              <div className="flex flex-col-reverse justify-around p-4">
                 <div className="min-h-screen py-6 flex flex-col justify-center sm:py-12 flex-none px-8">
