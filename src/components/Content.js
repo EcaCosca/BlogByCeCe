@@ -7,13 +7,13 @@ export const Content = () => {
     return (
         <div className='flex-col items-center'>
             <div className="h-screen flex justify-center items-center bg-red-300">
-                <h1 className="text-9xl uppercase font-black">Content</h1>
+                <h1 className="tracking-widest text-9xl uppercase font-black">Content</h1>
             </div>
             <div className="flex-col items-center font-mono">
             <div className="h-screen flex flex-col justify-center items-center bg-gradient-to-b from-red-300 via-red-300 to-transparent">
-                <h2 className="text-5xl mb-2 p-10">Como un básico se transforma en una prenda exótica</h2>
-                <h2 className="text-3xl mb-1 p-4">Domingo Domingo</h2>
-                <h4 className="text-2xl mb-1 p-4">De Argentina al Universo, el salto que define a Domingo es Domingo</h4>
+                <h2 className="tracking-wider text-5xl mb-2 p-10">Como un básico se transforma en una prenda exótica</h2>
+                <h2 className="tracking-widest text-3xl mb-1 p-4">Domingo Domingo</h2>
+                <h4 className="tracking-wider text-2xl mb-1 p-4">De Argentina al Universo, el salto que define a Domingo es Domingo</h4>
             </div>
             <div className="flex flex-col justify-center items-center mb-5">
                 <div className="flex flex-col-reverse lg:flex-row-reverse justify-around p-4">
