@@ -1,17 +1,39 @@
 import React from 'react'
 import hero from '../images/hero.jpg'
-
+import { Phrase, Char } from "animatedtxt";
 
 const About = () => {
     return (
         <div>
             <div className="h-screen flex justify-center items-center bg-yellow-300">
                 <h1 className="text-9xl uppercase font-black tracking-widest">
-                    About
+                    <Phrase margin={10}>
+                        <Char char="A" delay={0} />
+                        <Char char="B" delay={0.2} />
+                        <Char char="O" delay={0.4} />
+                        <Char char="U" delay={0.6} />
+                        <Char char="T" delay={0.8} />
+                    </Phrase>
                     <br />
-                    Camila
+                    <Phrase margin={10}>
+                        <Char char="C" delay={1.8} />
+                        <Char char="A" delay={2} />
+                        <Char char="M" delay={2} />
+                        <Char char="I" delay={2} />
+                        <Char char="L" delay={2} />
+                        <Char char="A" delay={2} />
+                    </Phrase>
                     <br />
-                    Colonel
+                    <Phrase margin={20} size={100} duration={0.5}>
+                        <Char char="C" delay={2.3} />
+                        <Char char="O" delay={2.8} />
+                        <Char char="L" delay={3.3} duration={0.2} />
+                        <Char char="O" delay={3.5} />
+                        <Char char="N" delay={4} />
+                        <Char char="E" delay={4.5} />
+                        <Char char="L" delay={5} />
+
+                    </Phrase>
                 </h1>
             </div>
              <div className="flex flex-col-reverse justify-around p-4">
