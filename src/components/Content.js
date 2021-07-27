@@ -18,7 +18,7 @@ export const Content = () => {
             <div className="flex flex-col justify-center items-center mb-5">
                 {/* <div className="content-card">
                 </div> */}
-                <div className="flex flex-row-reverse justify-around p-4">
+                <div className="flex flex-col-reverse lg:flex-row-reverse justify-around p-4">
                     <div className="min-h-screen py-6 flex flex-col justify-center sm:py-12 flex-none px-8">
                         <div className="relative py-3 sm:max-w-xl sm:mx-auto">
                             <div className="absolute inset-0 bg-gradient-to-r from-yellow-300 via-red-300 to-pink-300 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:rotate-6 sm:rounded-3xl"></div>
@@ -39,7 +39,7 @@ export const Content = () => {
                         </p>
                     </div>
                 </div>
-                <div className="flex flex-row justify-around p-4">
+                <div className="flex flex-col lg:flex-row justify-around p-4">
                     <div className="min-h-screen py-6 flex flex-col justify-center sm:py-12 flex-none px-8">
                         <div   div className="relative py-3 sm:max-w-xl sm:mx-auto">
                             <div className="absolute inset-0 bg-gradient-to-r from-pink-300 via-yellow-300 to-red-300 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"></div>
@@ -66,7 +66,7 @@ export const Content = () => {
                     <h2 className="text-2xl mb-1 p-4"><em>“El buen Diseñador es el que trabaja para el otro, nuestro objetivo es mostrar la impronta de uno para llegar a todos”</em></h2>
                     <h2 className="text-5xl mb-2 p-10">Agustina Alvez</h2>
                 </div> 
-                <div className="flex flex-row-reverse justify-around p-4">
+                <div className="flex flex-col-reverse lg:flex-row-reverse justify-around p-4">
                     <div className="min-h-screen py-6 flex flex-col justify-center sm:py-12 flex-none px-8">
                         <div   div className="relative py-3 sm:max-w-xl sm:mx-auto">
                             <div className="absolute inset-0 bg-gradient-to-r from-red-300 via-pink-300 to-yellow-300 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:rotate-6 sm:rounded-3xl"></div>
