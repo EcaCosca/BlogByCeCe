@@ -27,11 +27,11 @@ const Navegation = ({toggle}) => {
 							</svg>
             </div>
 						<div className="pr-9 md:block hidden">
-							<Link className="p-4 hover:text-gray-500 border-b-2 border-white hover:border-gray-500" to='/'>Home</Link>
-							<Link className="p-4 hover:text-gray-500 border-b-2 border-white hover:border-gray-500" to='/menu'>Menu</Link>
-							<Link className="p-4 hover:text-gray-500 border-b-2 border-white hover:border-gray-500" to='/about'>About</Link>
-							<Link className="p-4 hover:text-gray-500 border-b-2 border-white hover:border-gray-500" to='/content'>Content</Link>
-							<Link className="p-4 hover:text-gray-500 border-b-2 border-white hover:border-gray-500" to='/contact'>Contact</Link>
+							<Link className="p-4 rounded-lg hover:text-gray-500 border-2 border-white hover:border-gray-300 transition ease-in-out duration-500" to='/'>Home</Link>
+							<Link className="p-4 rounded-lg hover:text-gray-500 border-2 border-white hover:border-gray-300 transition ease-in-out duration-500" to='/menu'>Menu</Link>
+							<Link className="p-4 rounded-lg hover:text-gray-500 border-2 border-white hover:border-gray-300 transition ease-in-out duration-500" to='/about'>About</Link>
+							<Link className="p-4 rounded-lg hover:text-gray-500 border-2 border-white hover:border-gray-300 transition ease-in-out duration-500" to='/content'>Content</Link>
+							<Link className="p-4 rounded-lg hover:text-gray-500 border-2 border-white hover:border-gray-300 transition ease-in-out duration-500" to='/contact'>Contact</Link>
 						</div>
         </nav>
     )
