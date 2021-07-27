@@ -9,3 +9,7 @@
 .content-img {
     @apply h-full rounded mb-20 shadow;
 }
+
+.content-p {
+    @apply flex flex-col justify-center items-center mb-5 p-16 text-2xl;
+}
