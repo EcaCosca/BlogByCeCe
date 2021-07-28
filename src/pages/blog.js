@@ -1,7 +1,6 @@
 import React from 'react'
 import { Phrase, Char } from "animatedtxt";
 
-
 const blog = () => {
     return (
         <div className="h-screen flex justify-center items-center bg-green-300">

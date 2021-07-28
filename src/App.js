@@ -8,7 +8,7 @@ import Home from './pages';
 import Footer from './components/Footer';
 import About from './pages/about';
 import blog from './pages/blog';
-import { Content } from './components/Content';
+import { journalist } from './components/journalist';
 import Dropdown from './components/Dropdown';
 import contact from './pages/contact';
 
@@ -42,7 +42,7 @@ function App() {
         <Route path="/" exact component={Home} />
         <Route path="/about" component={About} />
         <Route path="/blog" component={blog} />
-        <Route path="/content" component={Content} />
+        <Route path="/journalist" component={journalist} />
         <Route path="/contact" component={contact} />
         {/* <Route path="/edit/:id" component={CreateNote} />
         <Route path="/create" component={CreateNote} />
