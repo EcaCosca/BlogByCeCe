@@ -28,7 +28,7 @@ const Navegation = ({toggle}) => {
             </div>
 						<div className="pr-9 md:block hidden">
 							<Link className="nav-btn" to='/'>Home</Link>
-							<Link className="nav-btn" to='/menu'>Menu</Link>
+							<Link className="nav-btn" to='/blog'>Blog</Link>
 							<Link className="nav-btn" to='/about'>About</Link>
 							<Link className="nav-btn" to='/content'>Content</Link>
 							<Link className="nav-btn" to='/contact'>Contact</Link>

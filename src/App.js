@@ -7,7 +7,7 @@ import CreateNote from './components/CreateNote'
 import Home from './pages';
 import Footer from './components/Footer';
 import About from './pages/about';
-import menu from './pages/menu';
+import blog from './pages/blog';
 import { Content } from './components/Content';
 import Dropdown from './components/Dropdown';
 import contact from './pages/contact';
@@ -41,7 +41,7 @@ function App() {
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/about" component={About} />
-        <Route path="/menu" component={menu} />
+        <Route path="/blog" component={blog} />
         <Route path="/content" component={Content} />
         <Route path="/contact" component={contact} />
         {/* <Route path="/edit/:id" component={CreateNote} />
