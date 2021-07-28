@@ -7,7 +7,7 @@ const About = () => {
         <div>
             <div className="h-screen flex justify-center items-center bg-yellow-300">
                 <h1 className="text-9xl uppercase font-black tracking-widest">
-                    <Phrase margin={10}>
+                    <Phrase margin={20}>
                         <Char char="A" delay={0} />
                         <Char char="B" delay={0.2} />
                         <Char char="O" delay={0.4} />
@@ -15,13 +15,9 @@ const About = () => {
                         <Char char="T" delay={0.8} />
                     </Phrase>
                     <br />
-                    <Phrase margin={10}>
+                    <Phrase margin={20}>
                         <Char char="C" delay={1.8} />
-                        <Char char="A" delay={2} />
-                        <Char char="M" delay={2} />
-                        <Char char="I" delay={2} />
-                        <Char char="L" delay={2} />
-                        <Char char="A" delay={2} />
+                        <Char char="E" delay={2} />
                     </Phrase>
                     <br />
                     <Phrase margin={20} size={100} duration={0.5}>
@@ -47,7 +43,7 @@ const About = () => {
                         </div>  
                     </div>
                 </div>
-                <div className="flex flex-col justify-center items-center mb-5 p-16 text-3xl font-mono">
+                <div className="flex flex-col justify-center items-center mb-5 p-16 text-2xl font-mono">
                     <p className="mb-2 border-b-2 p-4 mb-20">
                     Argentine world traveler, writer, journalist and fashion producer
                     <br />
@@ -61,7 +57,7 @@ const About = () => {
                     <br />
                     </p>
                     <div className='rounded-full h-40 w-40 flex items-center justify-center border-4 border-gray-300 shadow-lg transform hover:scale-125 hover:shadow-2xl transition ease-in-out duration-1000'>
-                        <h2 className="text-5xl mb-1 p-4 font-bold">CeCe</h2>
+                        <h2 className="text-4xl font-bold">ce ce</h2>
                     </div>
                 </div>
             </div>
