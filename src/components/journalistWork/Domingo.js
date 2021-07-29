@@ -14,7 +14,7 @@ const Domingo = () => {
             </div>
             <div className="flex flex-col justify-center items-center mb-5">
                 <div className="flex flex-col-reverse lg:flex-row-reverse justify-around p-4">
-                    <PictureFrame image={DM1} />
+                    <PictureFrame image={DM1} alt="modelo1"/>
                     <div className="content-p">
                         <p>
                         Teniendo América Latina y toda su exquisita cultura como referencia no dejamos  de pensar en Visión- Diseño – Función para describir a esta marca para hombres, que con cada temporada atemporal, nos hace respirar creatividad exponencial y liderazgo como producto nacional.
