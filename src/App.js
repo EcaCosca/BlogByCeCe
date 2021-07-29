@@ -8,6 +8,8 @@ import Home from './pages';
 import Footer from './components/Footer';
 import About from './pages/about';
 import blog from './pages/blog';
+import privacy from './pages/privacy';
+import cookies from './pages/cookies';
 import { journalist } from './components/journalist';
 import Dropdown from './components/Dropdown';
 import contact from './pages/contact';
@@ -44,10 +46,11 @@ function App() {
         <Route path="/blog" component={blog} />
         <Route path="/journalist" component={journalist} />
         <Route path="/contact" component={contact} />
+        <Route path="/privacy" component={privacy} />
+        <Route path="/cookies" component={cookies} />
         {/* <Route path="/edit/:id" component={CreateNote} />
         <Route path="/create" component={CreateNote} />
         <Route path="/user" component={CreateUser} /> */}
-
       </Switch>
       <Footer />
 

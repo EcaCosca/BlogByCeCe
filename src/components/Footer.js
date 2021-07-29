@@ -37,7 +37,7 @@ const Footer = () => {
                 
 
         <div>
-            <p><small>© 1994-{new Date().getFullYear()} Ce Colonel - All rigths reserved  |  Privacy Policy  |  Cookies Policy</small></p>
+            <p><small>© 1994-{new Date().getFullYear()} Ce Colonel - All rigths reserved  |  <Link className="nav-btn text-red-800" to='/privacy'>Privacy Policy</Link>  |  <Link className="nav-btn text-red-800" to='/cookies'>Cookies Policy</Link></small></p>
         </div>
         </nav>
     )
