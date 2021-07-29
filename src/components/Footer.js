@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { FaLinkedin } from "react-icons/fa";
+import { FaLinkedin, FaMailBulk } from "react-icons/fa";
+import Mailto from 'reactv16-mailto';
+
 
 const Footer = () => {
     return (
@@ -22,8 +24,13 @@ const Footer = () => {
                     </div>
 
                     <div className="flex flex-col items-center justify-center">
-                        <h2 className="font-mono font-bold pl-8">Contact me!</h2>
-                        <a className="text-5xl" href='https://www.linkedin.com/in/camilacolonel/' target="_blank" rel="noreferrer" aria-label="LinkedIn"><FaLinkedin /></a>
+                        
+                        <div className="flex flex-row justify-around items-center">
+                            <a className="text-5xl p-4" href='https://www.linkedin.com/in/camilacolonel/' target="_blank" rel="noreferrer" aria-label="LinkedIn"><FaLinkedin /></a>
+                            <Mailto email="camilacolonel@gmail.com" obfuscate={true}>
+                                <FaMailBulk className="text-5xl"/>
+                            </Mailto>
+                        </div>
                     </div>
             </div>
 
