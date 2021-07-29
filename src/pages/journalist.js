@@ -1,14 +1,10 @@
 import React from 'react'
-// import DM1 from '../images/DM1.jpg'
-// import DM2 from '../images/DM2.jpg'
-// import DM3 from '../images/DM3.jpg'
 import { Phrase, Char } from "animatedtxt";
 import Domingo from '../components/journalistWork/Domingo';
 
 export const journalist = () => {
     return (
         <>
-        
             <div className="h-screen flex justify-center items-center bg-red-300">
                 <h1 className="tracking-widest text-9xl uppercase font-black">
                     <Phrase margin={20} size={100} duration={1}>
