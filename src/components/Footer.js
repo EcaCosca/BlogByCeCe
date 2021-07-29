@@ -28,7 +28,7 @@ const Footer = () => {
                         <div className="flex flex-row justify-around items-center">
                             <a className="text-5xl p-4" href='https://www.linkedin.com/in/camilacolonel/' target="_blank" rel="noreferrer" aria-label="LinkedIn"><FaLinkedin /></a>
                             <Mailto email="camilacolonel@gmail.com" obfuscate={true}>
-                                <FaMailBulk className="text-5xl"/>
+                                <FaMailBulk className="text-5xl hover:text-cyan-500"/>
                             </Mailto>
                         </div>
                     </div>
