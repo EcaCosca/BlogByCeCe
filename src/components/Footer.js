@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
     return (
@@ -22,7 +23,7 @@ const Footer = () => {
 
                     <div className="flex flex-col items-center justify-center">
                         <h2 className="font-mono font-bold pl-8">Contact me!</h2>
-                        <Link href='https://www.linkedin.com/in/openers-closers-53940147/' target="_blank" aria-label="LinkedIn"><FaLinkedin /></Link>
+                        <a className="text-5xl" href='https://www.linkedin.com/in/camilacolonel/' target="_blank" rel="noreferrer" aria-label="LinkedIn"><FaLinkedin /></a>
                     </div>
             </div>
 
