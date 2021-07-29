@@ -1,28 +1,10 @@
 import React from 'react'
-import DM1 from '../images/DM1.jpg'
-import DM2 from '../images/DM2.jpg'
-import DM3 from '../images/DM3.jpg'
-import { Phrase, Char } from "animatedtxt";
+import DM1 from '../../images/DM1.jpg'
+import DM2 from '../../images/DM2.jpg'
+import DM3 from '../../images/DM3.jpg'
 
-export const journalist = () => {
+const Domingo = () => {
     return (
-        <div className='flex-col items-center'>
-            <div className="h-screen flex justify-center items-center bg-red-300">
-                <h1 className="tracking-widest text-9xl uppercase font-black">
-                    <Phrase margin={20} size={100} duration={1}>
-                        <Char char="J" />
-                        <Char char="O" />
-                        <Char char="U" />
-                        <Char char="R" />
-                        <Char char="N" />
-                        <Char char="A" />
-                        <Char char="L" />
-                        <Char char="I" />
-                        <Char char="S" />
-                        <Char char="T" />
-                    </Phrase>
-                </h1>
-            </div>
             <div className="flex-col items-center font-mono">
             <div className="h-screen flex flex-col justify-center items-center bg-gradient-to-b from-red-300 via-red-300 to-transparent">
                 <h2 className="tracking-wider text-5xl mb-2 p-10">Como un básico se transforma en una prenda exótica</h2>
@@ -103,6 +85,7 @@ export const journalist = () => {
                 </div>
             </div>    
         </div>
-        </div>
     )
 }
+
+export default Domingo

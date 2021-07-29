@@ -10,7 +10,7 @@ import About from './pages/about';
 import blog from './pages/blog';
 import privacy from './pages/privacy';
 import cookies from './pages/cookies';
-import { journalist } from './components/journalist';
+import { journalist } from './pages/journalist';
 import Dropdown from './components/Dropdown';
 import contact from './pages/contact';
 
