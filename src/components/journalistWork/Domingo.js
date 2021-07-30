@@ -14,7 +14,7 @@ const Domingo = () => {
             </div>
             <div className="flex flex-col justify-center items-center mb-5">
                 <div className="flex flex-col-reverse lg:flex-row-reverse justify-around p-4">
-                    <PictureFrame image={DM1} alt="modelo1"/>
+                    <PictureFrame image={DM1} alt="modelo1" orientation={false}/>
                     <div className="content-p">
                         <p>
                         Teniendo América Latina y toda su exquisita cultura como referencia no dejamos  de pensar en Visión- Diseño – Función para describir a esta marca para hombres, que con cada temporada atemporal, nos hace respirar creatividad exponencial y liderazgo como producto nacional.
@@ -26,16 +26,7 @@ const Domingo = () => {
                     </div>
                 </div>
                 <div className="flex flex-col lg:flex-row justify-around p-4">
-                    <div className="min-h-screen py-6 flex flex-col justify-center sm:py-12 flex-none px-8">
-                        <div   div className="relative py-3 sm:max-w-xl sm:mx-auto">
-                            <div className="absolute inset-0 bg-gradient-to-r from-pink-300 via-yellow-300 to-red-300 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"></div>
-                            <div className="relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20">
-                                <div className="max-w-md mx-auto">
-                                    <img src={DM2} className="rounded-lg" alt="Model2" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <PictureFrame image={DM2} alt="modelo2" orientation={false}/>
                     <div className="content-p">
                         <p>
                             El cliente de <b>Domingo</b> la elige por lo diferente, el algodón de pima peruano,  la textura de un bordado, el detalle en cada avío y la estampa que tanto caracteriza  a esta marca; Pantalones cuadriculados con forrería floreada,  ponchos con guardas mapuches y pilotos acharolados con capucha. Domingo centra su diseño en morfologías básicas, tales como un jogging, pero con la vuelta Dominguera: Un jogging de terciopelo con un cordón trenzado de colores haciendo analogía a los colores del cerro de siete colores, Jujuy, Argentina.
@@ -53,16 +44,7 @@ const Domingo = () => {
                     <h2 className="text-5xl mb-2 p-10">Agustina Alvez</h2>
                 </div> 
                 <div className="flex flex-col-reverse lg:flex-row-reverse justify-around p-4">
-                    <div className="min-h-screen py-6 flex flex-col justify-center sm:py-12 flex-none px-8">
-                        <div   div className="relative py-3 sm:max-w-xl sm:mx-auto">
-                            <div className="absolute inset-0 bg-gradient-to-r from-red-300 via-pink-300 to-yellow-300 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:rotate-6 sm:rounded-3xl"></div>
-                            <div className="relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20">
-                                <div className="max-w-md mx-auto">
-                                    <img src={DM3} className="rounded-lg" alt="Model3" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <PictureFrame image={DM3} alt="modelo3" orientation={false}/>
                     <div className="content-p">
                         <p>
                         Loco, no? Pero esta es la energía que maneja la marca. Una energía innovadora que te invita a romper con las estructuras y tendencias establecidas y te deja que seas vos el que marca su propia identidad con prendas pensadas. <em>“La idea es que se coman el mismo viaje que el diseñador”</em>
