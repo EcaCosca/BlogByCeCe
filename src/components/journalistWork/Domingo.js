@@ -8,7 +8,9 @@ const Domingo = () => {
     return (
             <div className="flex-col items-center font-mono">
             <div className="h-screen flex flex-col justify-center items-center bg-gradient-to-b from-red-300 via-red-300 to-transparent">
-                <h2 className="tracking-wider text-5xl mb-2 p-10">Como un básico se transforma en una prenda exótica</h2>
+                <h2 className="tracking-wider text-5xl mb-2 p-10">
+                    Como un básico se transforma en una prenda exótica
+                </h2>
                 <h2 className="tracking-widest text-3xl mb-1 p-4">Domingo Domingo</h2>
                 <h4 className="tracking-wider text-2xl mb-1 p-4">De Argentina al Universo, el salto que define a Domingo es Domingo</h4>
             </div>
